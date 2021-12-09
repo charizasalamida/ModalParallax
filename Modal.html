@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font awesome icons -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Modal&Parallax</title>
+</head>
+<body>
+
+  <nav class="blue darken-4">
+    <div class="container">
+      <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Modal & Parallax</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="Modal.html">Home</a></li>
+        <li><a href="MODEL.html">Modal</a></li>
+        <li><a href="Parallax.html">Parallax</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+          <div class="user-view">
+              <div class="background">
+                  <img src="https://thumbs.dreamstime.com/b/luxury-black-gold-background-design-presentation-concert-show-vector-illustration-luxury-black-gold-background-design-131760667.jpg">
+              </div>
+          <a href="#user"><img class="circle" src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t39.30808-6/217070339_285705193318750_2266496730724463525_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHTCjM1ktFIuRaexPNY990kGq1rL0_rF78arWsvT-sXv7JYI5y6Fvss-vnAxiQhtIMz7_0pNCGXTVZxnUpEJoOA&_nc_ohc=TDaQlPkdyZYAX8iXR8d&_nc_ht=scontent.fmnl17-4.fna&oh=031b69e0dc44cbbc1eb88764acdc81f0&oe=61B5132D"></a>
+          <a href="#name"><span class="white-text name">Chariza Salamida</span></a>
+          <a href="#email"><span class="white-text email">charizaisraelsalamida1526@gmail.com</span></a>
+          </div>
+      </li>
+      <li><a href="#!"><i class="material-icons">bookmark</i>My files</a></li>
+      <li><a href="#!">Profile</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="#!">Home</a></li>
+      <li><a href="#!">About</a></li>
+      <li><a href="#!">Settings</a></li>
+  </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     
+  
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+
+  });
+
+  // Or with jQuery
+  
+
+ $(document).ready(function(){
+   $(".dropdown-trigger").dropdown();
+ });
+        
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
+        
+        
+ </script>
+
+</body>
+</html>
+
+
+

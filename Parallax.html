@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font awesome icons -->
+        <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>Parallax</title>
+    </head>
+    <body>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="https://images.news18.com/ibnlive/uploads/2019/04/Avengers-Endgame-4.jpg?im=FitAndFill,width=1200,height=1200"></div>
+        </div>
+          <div class="section white">
+            <div class="row container">
+              <h2 class="header">Parallax</h2>
+              <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+            </div>
+          </div>
+          <div class="parallax-container">
+            <div class="parallax"><img src="https://i.ytimg.com/vi/vh4khDp1eqQ/maxresdefault.jpg"></div>
+          </div>
+
+
+
+ <!-- Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+
+
+  
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+        
+        
+        
+ </script>
+
+
+
+
+    </body>
+
+</html>    
